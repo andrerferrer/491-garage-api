@@ -9,7 +9,7 @@ webpack-dev-server
 
 We'll finish this code using the [Garage API](https://github.com/lewagon/garage-api#wagon---garage-api-).
 
-Our GARAGE_SLUG will be `399-berlin`.
+Our GARAGE_SLUG will be `???`.
 
 ## Tips and Tricks
 
