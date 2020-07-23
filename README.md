@@ -1,10 +1,18 @@
 ## Usage
-You can clone this repo and then run:
+
+First clone this repository. 
+You must have Node (> v4) and [yarn](https://yarnpkg.com/lang/en/docs/install/) installed.
 
 ```bash
+export BATCH_NUMBER=999
+cd ~/code/$USER
+git clone git@github.com:andrerferrer/$BATCH_NUMBER-clearbit-api.git
+cd $BATCH_NUMBER-clearbit-api
 yarn install
-webpack-dev-server
+stt # Open this folder in Sublime Text
+webpack-dev-server # run the server on localhost:8080
 ```
+
 ## What are we doing today?
 
 We'll finish this code using the [Garage API](https://github.com/lewagon/garage-api#wagon---garage-api-).
