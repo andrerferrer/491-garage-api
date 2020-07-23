@@ -17,9 +17,17 @@ webpack-dev-server # run the server on localhost:8080
 
 We'll finish this code using the [Garage API](https://github.com/lewagon/garage-api#wagon---garage-api-).
 
-Our GARAGE_SLUG will be `???`.
+⚠️⚠️⚠️
+  Our GARAGE_SLUG will be `426`.
+⚠️⚠️⚠️
 
 ## Tips and Tricks
+
+### What is the url?
+
+`url: https://wagon-garage-api.herokuapp.com/:garage/cars`
+
+So, if the garage name is `banana`, the url will be `https://wagon-garage-api.herokuapp.com/banana/cars`
 
 ### How to fetch using POST?
 
