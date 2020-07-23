@@ -6,8 +6,8 @@ You must have Node (> v4) and [yarn](https://yarnpkg.com/lang/en/docs/install/) 
 ```bash
 export BATCH_NUMBER=999
 cd ~/code/$USER
-git clone git@github.com:andrerferrer/$BATCH_NUMBER-garage-api.git
-cd $BATCH_NUMBER-garage-api
+git clone git@github.com:andrerferrer/$BATCH_NUMBER-garage.git
+cd $BATCH_NUMBER-garage
 yarn install
 stt # Open this folder in Sublime Text
 webpack-dev-server # run the server on localhost:8080
