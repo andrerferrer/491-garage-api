@@ -4,7 +4,7 @@ First clone this repository.
 You must have Node (> v4) and [yarn](https://yarnpkg.com/lang/en/docs/install/) installed.
 
 ```bash
-export BATCH_NUMBER=999
+export BATCH_NUMBER=491
 cd ~/code/$USER
 git clone git@github.com:andrerferrer/$BATCH_NUMBER-garage.git
 cd $BATCH_NUMBER-garage
@@ -18,7 +18,7 @@ webpack-dev-server # run the server on localhost:8080
 We'll finish this code using the [Garage API](https://github.com/lewagon/garage-api#wagon---garage-api-).
 
 ⚠️⚠️⚠️
-  Our GARAGE_SLUG will be `426`.
+  Our GARAGE_SLUG will be `491`.
 ⚠️⚠️⚠️
 
 ## Tips and Tricks
@@ -33,10 +33,10 @@ So, if the garage name is `banana`, the url will be `https://wagon-garage-api.he
 
 ```javascript
  const dataToSend = {
- 	key1: value1,
- 	key2: value2,
- 	key3: value3
- 	// ...etc
+    key1: value1,
+    key2: value2,
+    key3: value3
+    // ...etc
  }
 
  fetch(url, {

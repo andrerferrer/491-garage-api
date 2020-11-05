@@ -19,6 +19,10 @@ const postApi = (event) => {
     }
 
     // we can also make it with destructuring
+    // const a = 1
+    // const json = { a }
+    // json == {a: 1}
+    
     // const json = { brand, model, owner, plate }
     // https://www.freecodecamp.org/news/array-destructuring-in-es6-30e398f21d10/
 
@@ -26,11 +30,11 @@ const postApi = (event) => {
     const jsonStringified = JSON.stringify(json);
 
     const options = {
-    method: 'POST',
-    headers: {
-        "Content-Type": 'application/json'
-    },
-    body: jsonStringified
+        method: 'POST',
+        headers: {
+            "Content-Type": 'application/json'
+        },
+        body: jsonStringified
     };
 
     // 4. Send a POST ajax request to the API
